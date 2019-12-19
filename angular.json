@@ -159,6 +159,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "NgxDashboard"
+    }
+  },
+  "defaultProject": "NgxDashboard",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

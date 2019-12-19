@@ -1,0 +1,12 @@
+/**
+ * @fileoverview added by tsickle
+ * Generated from: ngx-dashboard.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { NgxDashboardService, NgxDashboardComponent, NgxDashboardModule } from './public-api';
+export { SemiCircularProgressbarComponent as ɵa } from './lib/semi-circular-progressbar/semi-circular-progressbar.component';
+export { TestComponentComponent as ɵb } from './lib/test-component/test-component.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LWRhc2hib2FyZC5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1kYXNoYm9hcmQvIiwic291cmNlcyI6WyJuZ3gtZGFzaGJvYXJkLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBSUEsK0VBQWMsY0FBYyxDQUFDO0FBRTdCLE9BQU8sRUFBQyxnQ0FBZ0MsSUFBSSxFQUFFLEVBQUMsTUFBTSxxRUFBcUUsQ0FBQztBQUMzSCxPQUFPLEVBQUMsc0JBQXNCLElBQUksRUFBRSxFQUFDLE1BQU0sK0NBQStDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIEdlbmVyYXRlZCBidW5kbGUgaW5kZXguIERvIG5vdCBlZGl0LlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vcHVibGljLWFwaSc7XG5cbmV4cG9ydCB7U2VtaUNpcmN1bGFyUHJvZ3Jlc3NiYXJDb21wb25lbnQgYXMgybVhfSBmcm9tICcuL2xpYi9zZW1pLWNpcmN1bGFyLXByb2dyZXNzYmFyL3NlbWktY2lyY3VsYXItcHJvZ3Jlc3NiYXIuY29tcG9uZW50JztcbmV4cG9ydCB7VGVzdENvbXBvbmVudENvbXBvbmVudCBhcyDJtWJ9IGZyb20gJy4vbGliL3Rlc3QtY29tcG9uZW50L3Rlc3QtY29tcG9uZW50LmNvbXBvbmVudCc7Il19

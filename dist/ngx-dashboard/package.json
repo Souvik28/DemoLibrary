@@ -1,0 +1,21 @@
+{
+  "name": "ngx-dashboard",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/ngx-dashboard.umd.js",
+  "module": "fesm5/ngx-dashboard.js",
+  "es2015": "fesm2015/ngx-dashboard.js",
+  "esm5": "esm5/ngx-dashboard.js",
+  "esm2015": "esm2015/ngx-dashboard.js",
+  "fesm5": "fesm5/ngx-dashboard.js",
+  "fesm2015": "fesm2015/ngx-dashboard.js",
+  "typings": "ngx-dashboard.d.ts",
+  "metadata": "ngx-dashboard.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
