@@ -1,4 +1,33 @@
 <lib-semi-circular-progressbar [match]="67.7"></lib-semi-circular-progressbar>
-<lib-NgxDashboard></lib-NgxDashboard>
+<app-user-reg-header>
+    <cdk-step><p>Hi 1st page</p></cdk-step>
+    <cdk-step><p>Hi 2nd step</p></cdk-step>
+</app-user-reg-header>
+
+<div>
+    It works
+</div>
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+        <mat-select formControlName="country" (ngModelChange)="changeStateField()" placeholder="Select">
+          <mat-option value="India">India</mat-option>
+          <mat-option value="other">Other</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <div *ngIf="countryName === 'India'">
+        <mat-form-field>
+            <mat-select formControlName="state" placeholder="Select State">
+            <mat-option value="option">Option</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <div  *ngIf="countryName !== 'India'">
+        <mat-form-field>
+            <input matInput formControlName="state" placeholder="Input">
+        </mat-form-field>
+    </div>
+    <button mat-button type="submit" [disabled]="!profileForm.valid">Submit</button>
+</form>
+<!-- <lib-NgxDashboard></lib-NgxDashboard> -->
 
 <router-outlet></router-outlet>

@@ -9,10 +9,12 @@
     "src/polyfills.ts"
   ],
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "../../node_modules/push-notification/src/**/*.ts"
   ],
   "exclude": [
     "src/test.ts",
-    "src/**/*.spec.ts"
+    "src/**/*.spec.ts",
+    "../../node_modules/push-notification/src/**/*.spec.ts"
   ]
 }
