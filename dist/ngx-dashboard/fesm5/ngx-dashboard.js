@@ -118,6 +118,34 @@ var TestComponentComponent = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/pie-chart/pie-chart.component.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var PieChartComponent = /** @class */ (function () {
+    function PieChartComponent() {
+    }
+    /**
+     * @return {?}
+     */
+    PieChartComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    PieChartComponent.decorators = [
+        { type: Component, args: [{
+                    selector: 'lib-pie-chart',
+                    template: "<p>pie-chart works!</p>\n",
+                    styles: [""]
+                }] }
+    ];
+    /** @nocollapse */
+    PieChartComponent.ctorParameters = function () { return []; };
+    return PieChartComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
  * Generated from: lib/ngx-dashboard.module.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
@@ -126,12 +154,12 @@ var NgxDashboardModule = /** @class */ (function () {
     }
     NgxDashboardModule.decorators = [
         { type: NgModule, args: [{
-                    declarations: [NgxDashboardComponent, SemiCircularProgressbarComponent, TestComponentComponent],
+                    declarations: [NgxDashboardComponent, SemiCircularProgressbarComponent, TestComponentComponent, PieChartComponent],
                     imports: [
                         MatCardModule,
                         MatButtonModule
                     ],
-                    exports: [NgxDashboardComponent, SemiCircularProgressbarComponent]
+                    exports: [NgxDashboardComponent, SemiCircularProgressbarComponent, PieChartComponent]
                 },] }
     ];
     return NgxDashboardModule;
@@ -149,5 +177,5 @@ var NgxDashboardModule = /** @class */ (function () {
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { NgxDashboardComponent, NgxDashboardModule, NgxDashboardService, SemiCircularProgressbarComponent as ɵa, TestComponentComponent as ɵb };
+export { NgxDashboardComponent, NgxDashboardModule, NgxDashboardService, SemiCircularProgressbarComponent as ɵa, TestComponentComponent as ɵb, PieChartComponent as ɵc };
 //# sourceMappingURL=ngx-dashboard.js.map

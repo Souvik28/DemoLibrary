@@ -121,6 +121,34 @@
 
     /**
      * @fileoverview added by tsickle
+     * Generated from: lib/pie-chart/pie-chart.component.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+    var PieChartComponent = /** @class */ (function () {
+        function PieChartComponent() {
+        }
+        /**
+         * @return {?}
+         */
+        PieChartComponent.prototype.ngOnInit = /**
+         * @return {?}
+         */
+        function () {
+        };
+        PieChartComponent.decorators = [
+            { type: core.Component, args: [{
+                        selector: 'lib-pie-chart',
+                        template: "<p>pie-chart works!</p>\n",
+                        styles: [""]
+                    }] }
+        ];
+        /** @nocollapse */
+        PieChartComponent.ctorParameters = function () { return []; };
+        return PieChartComponent;
+    }());
+
+    /**
+     * @fileoverview added by tsickle
      * Generated from: lib/ngx-dashboard.module.ts
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
@@ -129,12 +157,12 @@
         }
         NgxDashboardModule.decorators = [
             { type: core.NgModule, args: [{
-                        declarations: [NgxDashboardComponent, SemiCircularProgressbarComponent, TestComponentComponent],
+                        declarations: [NgxDashboardComponent, SemiCircularProgressbarComponent, TestComponentComponent, PieChartComponent],
                         imports: [
                             material.MatCardModule,
                             material.MatButtonModule
                         ],
-                        exports: [NgxDashboardComponent, SemiCircularProgressbarComponent]
+                        exports: [NgxDashboardComponent, SemiCircularProgressbarComponent, PieChartComponent]
                     },] }
         ];
         return NgxDashboardModule;
@@ -145,6 +173,7 @@
     exports.NgxDashboardService = NgxDashboardService;
     exports.ɵa = SemiCircularProgressbarComponent;
     exports.ɵb = TestComponentComponent;
+    exports.ɵc = PieChartComponent;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
